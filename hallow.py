@@ -1,11 +1,10 @@
 import pyautogui
 import time
-import random
 
 time.sleep(10)
 
-spamtext = "text"
-for  in range(100):
-    pyautogui.typewrite(spam_text)
+write_text = "text"
+for  in range(1): # change the ammount how many time you wanna type that text
+    pyautogui.typewrite(write_text)
     pyautogui.press('enter')
-    time.sleep(0.7)
+    time.sleep(1) # time between typing text (1 recommended)
